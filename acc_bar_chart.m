@@ -1,7 +1,4 @@
-X = [96.12	97.01	97.91	98.21	98.81
-; 
-     96.88	97.12	97.6	98.32	99.04
-];
+
 figure();
 b = bar(X', 'BarWidth', 0.9); % Adjust BarWidth if needed
 ylim([90 100]);
