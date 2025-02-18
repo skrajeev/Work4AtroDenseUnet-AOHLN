@@ -1,4 +1,4 @@
-function [YPred] = CNN_train(XTrain, XTest, YTrain, YTest)
+function [YPred] = LSTM_train(XTrain, XTest, YTrain, YTest)
 
 XTrain1 = XTrain;
 XTest1 = XTest;
