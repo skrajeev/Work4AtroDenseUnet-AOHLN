@@ -36,7 +36,7 @@ YTrain = label;
 XTest  = selected_features(idx,:);
 YTest = label(idx,:);
 
-Ypred= CNN_train(XTrain, XTest, YTrain, YTest); 
+Ypred= AOHLN_train(XTrain, XTest, YTrain, YTest); 
 %% Confusion Matrix
 [c_matrix_proposed,Result_proposed1,RefereceResult1]= confusion.getMatrix(YTest,(Ypred));
 figure;
