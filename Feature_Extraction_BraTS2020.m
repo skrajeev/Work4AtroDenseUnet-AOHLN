@@ -4,7 +4,7 @@ close all;
 clc;
 %% ---------------------------------------------------Tumor-------------------------------------------------------
 
-cellRlt = findAllSubfolders('E:\Boaner\Rajeev SK(539601)\BraTS 2020\HGG');
+cellRlt = findAllSubfolders('\BraTS 2020\HGG');
 Feat=[];
 for k=1
     [fPath, fName, fExt] = fileparts(cellRlt{k});
@@ -32,7 +32,7 @@ feature=[];
 end
 feature_tumor= Feat;
 %% ---------------------------------------------------Non-Tumor-----------------------------------------------------
-cellRlt = findAllSubfolders('E:\Boaner\Rajeev SK(539601)\BraTS 2020\LGG');
+cellRlt = findAllSubfolders('\BraTS 2020\LGG');
 Featur=[];
 for k=1
     [fPath, fName, fExt] = fileparts(cellRlt{k});
